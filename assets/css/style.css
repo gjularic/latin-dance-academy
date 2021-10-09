@@ -16,24 +16,45 @@ body {
 h1 {
     font-family: 'Spartan', sans-serif;
     color: #ae0b0b;
-    letter-spacing: 1px;
 }
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 /* navigation menu */
 
+.navbar {
+    height: 100px;
+    background-color: #201f23;
+}
+
 #menu {
     float: right;
     letter-spacing: 2px;
-    font-size: 125%;
 }
 
 #menu li {
     float: left;
     list-style-type: none;
     margin-right: 50px;
+    color: #f4f1ee;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    margin: 1rem;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu a:hover {
+    background-color: #f4f1ee;
+    color: #201f23;
 }

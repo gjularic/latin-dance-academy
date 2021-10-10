@@ -91,7 +91,7 @@ h2, h3 {
     color: #f4f1ee;
 }
 
-img {
+.card-img {
     width: 100%;
     padding-bottom: 1rem;
     border-radius: 10px;
@@ -179,4 +179,19 @@ table th, td {
 
 table tbody {
     background-color: #605d68;
+}
+
+/* Registration form */
+
+#bg-image {
+    height: 1000px;
+    width: 100%;
+    background: url('../images/mamboclass.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+#register-footer {
+    margin-top: auto;
 }

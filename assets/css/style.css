@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
 * {
     margin: 0;
@@ -82,10 +83,12 @@ hr {
     margin-top: 30px;
 }
 
-h2, h4 {
+h2, h3 {
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
     text-align: center;
-    text-transform: uppercase;
-    color: #d4d2db;
+    color: #f4f1ee;
 }
 
 img {
@@ -151,4 +154,29 @@ footer {
 
 .social-links i:hover {
     color: #fff;
+}
+
+/* Class Schedule */
+
+table {
+    margin: auto;
+    margin-top: 100px;
+    font-size: 1.5em;
+    min-width: 400;
+}
+
+table thead tr {
+    background-color: #c03333;
+    color: #fff;
+}
+
+table th, td {
+    padding: 12px 12px;
+    text-align: center;
+    vertical-align: middle;
+    color: #d4d2db;
+}
+
+table tbody {
+    background-color: #605d68;
 }

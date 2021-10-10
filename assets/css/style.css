@@ -15,7 +15,7 @@ body {
 
 h1 {
     font-family: 'Spartan', sans-serif;
-    color: #ae0b0b;
+    color: #ce1616;
 }
 
 #logo {
@@ -102,7 +102,6 @@ img {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-    transition: 0.4s;
     width: 50%;
     background: #201f23;
     text-align: center;
@@ -115,4 +114,41 @@ img {
 p {
     padding: 1rem;
     color: #d4d2db;
+}
+
+/* Footer, copyright, social media links */
+
+footer {
+    background: #201f23;
+    margin-top: 150px;
+    position: relative;
+    padding: 50px 10px;
+    display: block;
+    text-align: center;
+}
+
+.copyright {
+    float: left;
+    color: #6f6e72;
+}
+
+.social-links {
+    float: right;
+}
+
+.copyright, .social-links {
+    margin: -25px 20px;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    margin: 1rem;
+    color: #6f6e72;
+}
+
+.social-links i:hover {
+    color: #fff;
 }

@@ -230,3 +230,61 @@ table tbody {
     color: #ce1616;
     border: 1px solid #ce1616;
 }
+
+/* Media queries */
+
+/* medium screen sizes from 950 px wide and down */
+
+@media screen and (max-width: 950px){
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        line-height: 2px;
+    }
+
+    .navbar {
+        height: 150px;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
+/* small screen sizes from 650 px wide and down */
+
+@media screen and (max-width: 650px) {
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #menu a {
+        margin: 0.1rem;
+        letter-spacing: 1px;
+    }
+
+    footer {
+        padding: 70px 10px;
+    }
+
+    .copyright {
+        margin: -55px 20px;
+    }
+
+    .social-links {
+        margin: 0;
+        float: none;
+    }
+
+    #courses {
+        overflow-x: auto;
+    }
+}

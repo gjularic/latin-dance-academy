@@ -235,7 +235,7 @@ table tbody {
 
 /* medium screen sizes from 950 px wide and down */
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 980px){
 
     #menu {
         clear: left;
@@ -261,10 +261,6 @@ table tbody {
 /* small screen sizes from 650 px wide and down */
 
 @media screen and (max-width: 650px) {
-
-    #logo {
-        font-size: 150%;
-    }
 
     #menu a {
         margin: 0.1rem;

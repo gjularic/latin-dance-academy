@@ -284,3 +284,21 @@ table tbody {
         overflow-x: auto;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    #menu, #logo {
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    #menu {
+        margin-top: -10px;
+    }
+
+    #menu a {
+        padding: 0;
+    }
+
+
+}

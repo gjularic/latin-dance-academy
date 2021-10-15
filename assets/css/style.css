@@ -162,7 +162,6 @@ table {
     margin: auto;
     margin-top: 100px;
     font-size: 1.5em;
-    min-width: 400;
 }
 
 table thead tr {
@@ -299,6 +298,4 @@ table tbody {
     #menu a {
         padding: 0;
     }
-
-
 }

@@ -282,6 +282,11 @@ table tbody {
     #courses {
         overflow-x: auto;
     }
+
+    .register-div {
+        top: 70%;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -297,5 +302,9 @@ table tbody {
 
     #menu a {
         padding: 0;
+    }
+
+    .register-div {
+        top: 70%;
     }
 }
